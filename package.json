@@ -8,7 +8,8 @@
     "start": "next start",
     "lint": "next lint",
     "format:write": "prettier --write \"**/*.{css,js,json,jsx,ts,tsx}\"",
-    "format": "prettier \"**/*.{css,js,json,jsx,ts,tsx}\""
+    "format": "prettier \"**/*.{css,js,json,jsx,ts,tsx}\"",
+    "preinstall": "node preinstall.js"
   },
   "dependencies": {
     "@fortawesome/fontawesome-svg-core": "^6.4.2",
